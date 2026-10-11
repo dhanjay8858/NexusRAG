@@ -7,7 +7,7 @@
 
 ## 📋 Overview
 
-**Adaptive RAG** is an intelligent, end-to-end Retrieval-Augmented Generation (RAG) system powered by agentic AI architecture. It combines dynamic query routing, intelligent document retrieval, and advanced LLM capabilities to provide accurate, context-aware answers to user queries.
+**NexusRAG** is an intelligent, end-to-end Retrieval-Augmented Generation (RAG) system powered by agentic AI architecture. It combines dynamic query routing, intelligent document retrieval, and advanced LLM capabilities to provide accurate, context-aware answers to user queries.
 
 The system intelligently adapts its retrieval strategy based on query type, utilizing indexed documents, general knowledge, or real-time web search to generate comprehensive responses. Built with a modular architecture using LangGraph for workflow orchestration and multiple storage backends for scalability.
 
@@ -266,8 +266,8 @@ Form Data:
 
 ```bash
 # Clone the repository
-git clone https://github.com/dhanjay8858/Adaptive-RAG.git
-cd Adaptive-RAG
+git clone https://github.com/dhanjay8858/NexusRAG.git
+cd NexusRAG
 
 # Create virtual environment
 python -m venv venv
@@ -309,7 +309,7 @@ QDRANT_CODE_COLLECTION=code_documents
 QDRANT_DOCS_COLLECTION=documents
 
 # MongoDB Configuration
-MONGODB_URL=mongodb+srv://user:pass@cluster.mongodb.net/adaptive_RAG
+MONGODB_URL=mongodb+srv://user:pass@cluster.mongodb.net/nexus_rag
 ```
 
 ### 4. Running the Application
@@ -559,7 +559,7 @@ A: Yes, remove Tavily dependency. Queries will use index or general LLM only.
 ## 💬 Support & Contact
 
 For issues, questions, or suggestions:
-- Open an [Issue](https://github.com/dhruvsinghal09/Adaptive-Rag/issues)
+- Open an [Issue](https://github.com/dhanjay8858/NexusRAG/issues)
 - Check existing documentation
 - Review the code comments
 
